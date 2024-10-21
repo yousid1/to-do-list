@@ -1,3 +1,96 @@
+.App{
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(165, 57, 164);
+  color:wheat;
+}
+
+.date{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+
+.form-input{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+ 
+
+}
+.icon{
+  position:absolute;
+  left: 15px;
+  top:7px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+
+}
+
+.App form input{
+  border:2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 5px 10px 5px 80px;
+  font-size: 15px;
+  /* text-align: center; */
+  line-height: 30px;
+  display: block;
+  outline:0;
+  width:100%;
+  /* border-radius: 8; */
+}
+.task-row{
+  border:2px solid  rgb(165, 57, 164);
+  width:70%;
+  font-size:18px;
+  margin: 8px 0px 0px 20px ;
+  padding: 0px 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 11px;
+}
+
+.task-row-icon{
+  font-size: 25px;
+  cursor: pointer;
+}
+.task-row p{
+  text-transform: capitalize;
+}
+.completed{
+  background-color: wheat;
+  color:black;
+  text-decoration: line-through;
+  line-height: 10px;
+}
+.title{
+  position: relative;
+  width:100%;
+}
+.q-btn{
+  cursor: pointer;
+  margin-left: 10rem;
+  position: absolute;
+  font-size: 24px;
+  top:20px;
+  
+
+ 
+
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

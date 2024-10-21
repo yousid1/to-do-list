@@ -1,0 +1,17 @@
+.tooltip-container{
+    position:relative;
+    display: inline-block;
+
+
+}
+
+.tooltip{
+    position:absolute;
+
+    top:calc(-100% -60px);
+    transform: translateX(8%);
+    border-radius: 4px;
+    z-index: 1;
+    min-width: 200px;
+    background-color: black;
+}
